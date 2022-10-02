@@ -1,0 +1,108 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+@font-face {
+    font-family: reg;
+    src: url("../fonts/Outfit-Regular.ttf");
+}
+@font-face {
+    font-family: bol;
+    src: url("../fonts/Outfit-Bold.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 0.938rem;
+    font-family: reg ;
+    color: hsl(216, 31%, 56%);
+    text-align: left;
+    margin: 0 auto 1rem;
+ font-size: 14pt;
+}
+h1{
+    font-family: reg;
+    color: white;
+     padding: 1rem 0;
+    font-size: 22pt;
+    text-align: left ;
+}
+h1:hover{
+    color: hsl(178, 100%, 50%);
+}
+main{
+    background-color: hsl(216, 50%, 16%);
+    width: 20rem;
+    margin: 20vh auto 0;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+body{
+    background-color:hsl(217, 54%, 11%);
+}
+section{
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;  width: 20rem;
+    height: 20rem;
+    margin-bottom: .5rem;
+    border-radius: 1rem;
+    background-image: url(../img/image-equilibrium.jpg);
+}
+
+section:hover{
+background-position: center;
+background-repeat: no-repeat; 
+content: url(../img/icon-view.svg);
+color: hsl(178, 100%, 50%);
+content: 5rem;
+opacity: 60%;
+border-radius: 1rem;
+background-color: hsl(178, 100%, 50%);
+}
+.flexx{
+    display: flex;
+    flex-direction: row;
+}
+.eth{
+    margin-top: 2rem;
+    color: hsl(178, 100%, 50%);
+    font-size: 13pt;
+display: inline-block;
+text-align: left;
+}
+.eth::before{
+    content: url(../img/icon-ethereum.svg);
+    margin-right: .5rem;
+}
+.clock::before{
+    content: url(../img/icon-clock.svg);
+}
+.clock{
+  display: inline-block;
+  text-align: right;
+  margin-left: 7rem;
+}
+footer{
+    border-top:  .1rem solid  hsl(215, 32%, 27%);
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0 0 0;
+    padding: 1.5rem;
+}
+.fot{
+    font-size: 13pt;
+    margin-top: .7rem;
+}
+span{
+    color: white;
+}
+span:hover{
+    color: hsl(178, 100%, 50%);
+}
+.unten{
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 0.1rem solid white;
+    border-radius: 100%;
+}
